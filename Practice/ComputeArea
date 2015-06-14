@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ComputeArea{
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.println("Compute the area of a circle.");
+      System.out.print("Please input the radius of the circle: ");
+         double radius = input.nextDouble();
+         double area= radius*radius*3.14;
+      System.out.println("The area of the circle is " + area);
+    }
+ }
